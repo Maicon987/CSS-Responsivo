@@ -51,7 +51,6 @@
 }
 
 #root {
-  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -64,6 +63,19 @@
 
 body {
   margin: 0;
+  background-color: lightgreen;
+}
+
+@media (min-width: 361px) and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 601px) {
+  body {
+    background-color: violet;
+  }
 }
 
 h1,
